@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <link rel="stylesheet" href="C:\Users\Star\Documents\project\form-style.css">
+    </head>
+    <body style="border: 2px solid black;">
+        <img class="floatRight" src="C:\Users\Star\Downloads\Images\Images\Lab-Test\lab-test.jpg">
+
+        <form id="form">
+
+            <label for="contact" style="font-size: 30px;"><b>1.Your Contact Details:</b></label><br><br>
+            <input class ="contact" type="text" name="contact" value="Full name" size="40">
+            <input class ="contact" type="text" name="contact" value="Patient id if exists" size="40"><br><br>
+            <input class ="contact" type="text" name="contact" value="Contact number" size="40">
+            <input class ="contact" type="text" name="contact" value="Email" size="40"><br><br>
+            
+            <label for="address" style="font-size: 30px;"><b>2.Address:</b></label><br>
+            <input class ="contact" type="text" name="contact" value="H-No" size="40">
+            <input class ="contact" type="text" name="contact" value="Street" size="40"><br><br>
+            <input class ="contact" type="text" name="contact" value="Area" size="40"><br><br>
+            <label for="district"><b>District:</b></label><br><br>
+            <select name="district"><br>
+                <option value="Choose">Choose</option>
+                <option value="Coimbatore">Coimbatore</option>
+                <option value="Madurai">Madurai</option>
+                <option value="Goby">Goby</option>
+                <option value="Tirupur">Tirupur</option>
+                <option value="Madurai">Karur</option>
+                <option value="Goby">Dindigul</option>
+                <option value="Tirupur">Ooty</option>
+            
+            </select><br>
+
+            <p><b>3.Chosse the test type. Click atlest one box without fail</b></p>
+            <input type="checkbox"  name="CBC" value="CBC">
+            <label for="CBC"> CBC</label><br>
+            <input type="checkbox"  name="Complete Urine" value="Complete Urine">
+            <label for="Complete Urine"> Complete Urine</label><br>
+            <input type="checkbox"  name="Lipid Profile" value="Lipid Profile">
+            <label for="Lipid Profile"> Lipid Profile</label><br>
+            <input type="checkbox"  name="TSH" value="Thyroid Stimulating Hormone(TSH)">
+            <label for="TSH">Thyroid Stimulating Hormone(TSH)</label><br>
+            <input type="checkbox"  name="Glucose Test" value="Glucose Test">
+            <label for="Glucose Test">Glucose Test</label><br><br>
+
+            <p><b>Do you want a hard copy of the report also?</b></p>
+            <input type="radio"  name="hardcopy" value="yes">
+            <label for="hardcopy">Yes</label><br>
+            <input type="radio"  name="hardcopy" value="No">
+            <label for="hardcopy">No</label><br><br>
+
+            <p><b>Select your comfortable date and time</b></p>
+            <select name="date"><br>
+                <option value="date">Date</option>
+                <option value="May 10">May 10</option>
+                <option value="May 11">May 11</option>
+                <option value="May 12">May 12</option>
+                <option value="May 13">May 13</option>
+            </select>
+            <select name="time"><br>
+                <option value="time">Time</option>
+                <option value="May 10">9 A.M</option>
+                <option value="May 11">12 P.M</option>
+                <option value="May 12">3 P.M</option>
+                <option value="May 13">6 P.M</option>
+            </select><br><br>
+
+            <button class="button"> Reset  </button>
+            <button class="button"> Submit</button>
+
+
+        </form>
+    </body>
+</html>

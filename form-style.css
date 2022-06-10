@@ -1,0 +1,23 @@
+#form{
+    margin: 50px;
+}
+.contact{
+    border: white ;
+    border-bottom: grey 2px solid;
+
+}
+
+.floatRight{float:right}
+
+.button{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+p{
+    font-size: 30px;
+}
+
+input[value]{
+    color: grey;
+}
