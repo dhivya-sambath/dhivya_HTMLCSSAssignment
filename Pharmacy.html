@@ -1,119 +1,106 @@
 <!DOCTYPE html>
-<html>
-
 <head>
-  <title>Pharmacy</title>
-  <link rel="stylesheet" href="C:\Users\Star\Documents\project\style.css">
-  <script>
-    function myFunction() {
-      document.getElementById("button").style.backgroundColor = "red";
-    }
-  </script>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="Pharmacy.css">
 </head>
-
 <body>
-    
+    <header><h1>Pharmacy</h1></header>
+    <nav id="navigate">
+        <ul class="menu">
+            <li><a href="Pharmacy.html">Home</a></li>
+            <li>
+                <a href="#">Our Medicines</a>
+                <ul id="medicines">
+                    <li><a href="#">Fever</a></li>
+                    <li><a href="#">Muscle Pains</a></li>
+                    <li><a href="#">Cold and Cough</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Health Care</a>
+                <ul id="health">
+                    <li><a href="#">Baby Care</a></li>
+                    <li><a href="#">Skin Care</a></li>
+                    <li><a href="#">Home Care</a></li>
+                    <li><a href="#">Personal Care</a></li>
+                    <li><a href="#">Pet Care</a></li>
+                </ul>
+            </li>
+            <li><a href="Lab_Test.html" target="_blank">Lab Test</a></li>
+        </ul>
+    </nav>
+    <section id="img_section">
+    </section>
+    <section class="main">
+        <h2>Covid Care</h2>
+        <div class="product">
+            <h4>Covid Test Kit</h4>
+            <img src="Images/Products/c1.jpg" alt="">
+            <p>Rs. <span>40</span></p>
+            <p>Offer: Rs. <span>30</span>/-</p>
+            <button>Add to cart</button>
+        </div>
+
+        <div class="product">
+            <h4>Covid Essentials</h4>
+            <img src="Images/Products/c2.jpg" alt="">
+            <p>Rs. <span>240</span></p>
+            <p>Offer: Rs. <span>170</span>/-</p>
+            <button>Add to cart</button>
+        </div>
+
+        <div class="product">
+            <h4>Sanitizer Bottle</h4>
+            <img src="Images/Products/c3.jpg" alt="">
+            <p>Rs. <span>99</span></p>
+            <p>Offer: Rs. <span>87</span>/-</p>
+            <button>Add to cart</button>
+        </div>
+
+        <div class="product">
+            <h4>Mask</h4>
+            <img src="Images/Products/c4.jpg" alt="">
+            <p>Rs. <span>45</span></p>
+            <p>Offer: Rs. <span>30</span>/-</p>
+            <button>Add to cart</button>
+        </div>
+    </section>
+
+    <section class="main">
+        <h2>Diabetes Care</h2>
+
+        <div class="product">
+            <h4>BGR 34</h4>
+            <img src="Images/Products/d1.jpg" alt="">
+            <p>Rs. <span>45</span></p>
+            <p>Offer: Rs. <span>30</span>/-</p>
+            <button>Add to cart</button>
+        </div>
+
+        <div class="product">
+            <h4>Dabar Chyawanprakash</h4>
+            <img src="Images/Products/d2.jpg" alt="">
+            <p>Rs. <span>45</span></p>
+            <p>Offer: Rs. <span>30</span>/-</p>
+            <button>Add to cart</button>
+        </div>
         
-  <div class="header">
-    <h1 class="header_font">Pharmacy</h1>
-  </div>
-  <ul>
-    <li><a href="#home">Home</a></li>
-    <li>
-      <div class="dropdown">
-        <a href="#news">Our Medicines</a>
-        <div class="dropdown-content">
-          <a href="#">Fever</a>
-          <a href="#">Muscle Pain</a>
-          <a href="#">Cold and Cough</a>
+        <div class="product">
+            <h4>Colgate Sugarfree</h4>
+            <img src="Images/Products/d3.jpg" alt="">
+            <p>Rs. <span>45</span></p>
+            <p>Offer: Rs. <span>30</span>/-</p>
+            <button>Add to cart</button>
         </div>
-      </div>
-    </li>
-    <li>
-      <div class="dropdown">
-        <a href="#news">Health Care</a>
-        <div class="dropdown-content">
-          <a href="#">Baby Care</a>
-          <a href="#">Skin Care</a>
-          <a href="#">Home Care</a>
-          <a href="#">Personal Care</a>
-        </div>
-      </div>
-    </li>
-    <li><a href="C:\Users\Star\Documents\form.html">Lab Test</a></li>
-  </ul>
-  
-<div class="outer">
-  <div id="img_section">
-  </div>
-  <div class="row">
-    <h3><b>Covid Care</b></h3>
-    <div class="column">
-      <p><b>Covid Test Kit</b></p>
-      <img class="image" src="C:\Users\Star\Downloads\Images\Images\Products\c1.jpg"><br>
-      <span style="color: blue;">Rs.40</span><br>
-      <span style="color: blue;">Offer Rs 30/-</span><br>
-      <button class="button" id="button" onclick="myFunction()"><b>Add to Cart</b></button>
-    </div>
-    <div class="column">
-      <p><b>Covid Essentials</b></p>
-      <img class="image" src="C:\Users\Star\Downloads\Images\Images\Products\c2.jpg"><br>
-      <span style="color: blue;">Rs.240</span><br>
-      <span style="color: blue;">Offer Rs 170/-</span><br>
-      <button class="button"><b>Add to Cart</b></button>
-    </div>
-    <div class="column">
-      <p><b>Sanitizer Bottle</b></p>
-      <img class="image" src="C:\Users\Star\Downloads\Images\Images\Products\c3.jpg"><br>
-      <span style="color: blue;">Rs.99</span><br>
-      <span style="color: blue;">Offer Rs 87/-</span><br>
-      <button class="button"><b>Add to Cart</b></button>
-    </div>
-    <div class="column">
-      <p><b>Mask</b></p>
-      <img class="image" src="C:\Users\Star\Downloads\Images\Images\Products\c4.jpg"><br>
-      <span style="color: blue;">Rs.45</span><br>
-      <span style="color: blue;">Offer Rs 30/-</span><br>
-      <button class="button"><b>Add to Cart</b></button>
-    </div>
-  </div>
-  <div class="row">
-    <h3><b>Diabetics Care</b></h3>
-    <div class="column">
-      <p><b>BGR-34</b></p>
-      <img class="image" src="C:\Users\Star\Downloads\Images\Images\Products\d1.jpg"><br>
-      <span style="color: blue;">Rs.40</span><br>
-      <span style="color: blue;">Offer Rs 30/-</span><br>
-      <button class="button"><b>Add to Cart</b></button>
-    </div>
-    <div class="column">
-      <p><b>Chyawanprash</b></p>
-      <img class="image" src="C:\Users\Star\Downloads\Images\Images\Products\d2.jpg"><br>
-      <span style="color: blue;">Rs.240</span><br>
-      <span style="color: blue;">Offer Rs 170/-</span><br>
-      <button class="button"><b>Add to Cart</b></button>
-    </div>
-    <div class="column">
-      <p><b>Colgate</b></p>
-      <img class="image" src="C:\Users\Star\Downloads\Images\Images\Products\d3.jpg"><br>
-      <span style="color: blue;">Rs.99</span><br>
-      <span style="color: blue;">Offer Rs 87/-</span><br>
-      <button class="button"><b>Add to Cart</b></button>
-    </div>
-    <div class="column">
-      <p><b>Biscuit</b></p>
-      <img class="image" src="C:\Users\Star\Downloads\Images\Images\Products\d4.png"><br>
-      <span style="color: blue;">Rs.45</span><br>
-      <span style="color: blue;">Offer Rs 30/-</span><br>
-      <button class="button"><b>Add to Cart</b></button>
-    </div>
-  </div>
-  </div>
 
-</div>
-  <div class="footer">
-    <p>@copyright. Only for demonstration purposes</p>
-  </div>
+        <div class="product">
+            <h4>Unibic Cookies Sugar free</h4>
+            <img src="Images/Products/d4.png" alt="">
+            <p>Rs. <span>35</span></p>
+            <p>Offer: Rs. <span>30</span>/-</p>
+            <button>Add to cart</button>
+        </div>
+    </section>
+    <footer>@copyright. Only for demonstration purposes</footer>
 </body>
-
 </html>
